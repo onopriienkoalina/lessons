@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+h2, h3 {
+  color: brown;
+}
+.list li {
+  color: red;
+}
+.list-item ~ li {
+  color: green;
+}
+.list .list-item > ul > li {
+  color: blue;
+}
+.list .list-item > ul > li  + li {
+    color: orange;
+}
+.list-level-2 .list-item-level-2 > ul > li {
+  color: #4597f7;
+}
+.list-level-2 .list-item-level-2 > ul > li ~ li {
+  color: #5d5d5d;
+}
+.list-level-2 .list-item-level-2 > ol > li {
+    color: #4597f7;
+}
+.list-level-2 .list-item-level-2 > ol > li ~ li {
+    color: #5d5d5d;
+}
+
+ul li span {
+  color:  #a0f0fc;
+}
+#title {
+  color: purple;
+}
+[class*="nk"] {
+	color: yellowgreen;
+}
+.main-text.main-article {
+  color: pink;
+}
