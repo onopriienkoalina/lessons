@@ -1,0 +1,50 @@
+@import url("reset.css");
+@import url("fonts.css");
+body {
+  font-family: 'Segoe Script', serif;
+  font-size: 18px;
+  color: #323232;
+}
+.title {
+  font-family: 'Dancing Script';
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  font-style: oblique;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ccc;
+  text-transform: uppercase;
+}
+.link {
+  font-family: 'Bagins', sans-serif;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #875887;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 7px;
+}
+.block-eco-bazar {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.title-eco-bazar {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1A1A1A;
+  text-transform: none;
+}
+.text-eco-bazar {
+  font-size: 18px;
+  color: #808080;
+}
