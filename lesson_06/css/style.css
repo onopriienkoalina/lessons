@@ -126,7 +126,7 @@ margin-right: 30px;
 .call-text-container {
 display: inline-block;
 vertical-align: middle;
-width: calc(100% - 60px - 30px- 20px);
+width: calc(100% - 60px - 30px - 20px);
 margin-right: 40px;
 }
 .call-title {
