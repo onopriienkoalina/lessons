@@ -99,7 +99,7 @@ line-height: 2.1;
 font-size: 20px;
 }
 .about-item::before {
-content: url("/img/Frame.svg");
+content: url("../img/Frame.svg");
 vertical-align: middle;
 margin-right: 13px;
 width: 29px;
