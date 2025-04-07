@@ -1,0 +1,205 @@
+@import url("reset.css");
+@import url("fonts.css");
+.wrapper {
+overflow: clip;
+min-height: 100%;
+font-family: 'Inter', sans-serif;
+font-size: 15px;
+color: #4F4F4F;
+}
+.page {
+padding-top: 61px;
+background-color: #412672;
+}
+.cards {
+font-size: 0;
+}
+.container-meet {
+max-width: 1200px;
+margin: 0 auto;
+margin-bottom: 102px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.meet-title {
+font-size: 38px;
+color: #FFFFFF;
+line-height: 46px;
+margin-bottom: 31px;
+}
+.meet-subtitle {
+display: block;
+font-weight: 700;
+}
+.card-item {
+text-align: left;
+max-width: 387px;
+width: calc(33.33% - 20px); 
+display: inline-block;
+vertical-align: top;
+font-size: 22px;
+background-color: #FFFFFF;
+padding: 20px;
+}
+.card-item:hover{
+background-color: #FFBE48;
+}
+.card-item:not(:last-child) {
+margin-right: 20px;
+}
+.card-item > *:not(:last-child){
+margin-bottom: 16px;
+}
+.card-image {
+width: 347px;
+max-height: 266px;
+}
+.card-title {
+color: #000;
+font-size: 22px;
+font-weight: 600;
+line-height: 27px;
+}
+.card-text {
+line-height: 1.2;
+}
+.card-link {
+color: #FE3F3F;
+line-height: 1.2;
+}
+.container-about {
+background-color: #FFF;
+padding: 55px 15px 42px 15px;
+}
+.container-about-text {
+max-width: 518px;
+margin: 0 auto;
+color:  #412672;
+}
+.container-about-text > *:not(:last-child){
+margin-bottom: 20px;
+}
+.about-title,.about-subtitle {
+font-size: 34px;
+line-height: 41px;
+}
+.about-subtitle {
+font-weight: 700;
+}
+.about-text {
+font-size: 22px;
+line-height: 27px;
+}
+.about-list > *:not(:last-child) {
+margin-bottom: 21px;
+}
+.about-item {
+color: #4F4F4F;
+line-height: 2.1;
+font-size: 20px;
+}
+.about-item::before {
+content: url("img/Frame.svg");
+vertical-align: middle;
+margin-right: 13px;
+width: 29px;
+height: 29px;
+}
+.container-game {
+width: 500px;
+margin: 0 auto;
+text-align: center;
+padding: 20px;
+}
+.container-game > *:not(:first-child) {
+visibility: hidden;
+background-color: #fff;
+}
+.block-1 {
+width: 80px;
+height: 30px;
+background-color: #fff;
+margin: 0 auto;
+text-align: center;
+line-height: 30px;
+}
+.block-1::before {
+content: "START";
+}
+.container-game > *:hover {
+cursor: pointer;
+}
+.block-1:hover + .block-2 {
+visibility: visible;
+}
+.block-2 {
+width: 30px;
+height: 80px;
+margin: 0 auto;
+}
+.block-2:hover {
+visibility: visible;
+}
+.block-2:hover + .block-3 {
+visibility: visible;
+}
+.block-3 {
+width: 120px;
+height: 20px;
+margin-left: 125px;
+}
+.block-3:hover {
+visibility: visible;
+}
+.block-3:hover + .block-4 {
+visibility: visible;
+}
+.block-4 {
+width: 10px;
+height: 90px;
+margin-left: 125px;
+}
+.block-4:hover {
+visibility: visible;
+}
+.block-4:hover + .block-5 {
+visibility: visible;
+}
+.block-5 {
+width: 120px;
+height: 40px;
+margin-left: 125px;
+}
+.block-5:hover {
+visibility: visible;
+}
+.block-5:hover + .block-6 {
+visibility: visible;
+}
+.block-6 {
+width: 15px;
+height: 100px;
+margin-left: 230px;
+}
+.block-6:hover {
+visibility: visible;
+}
+.block-6:hover + .block-7 {
+visibility: visible;
+}
+.block-7 {
+width: 150px;
+height: 50px;
+margin-left: 230px;
+} 
+.block-7::before {
+line-height: 50px;
+content: "FINISH";
+}
+.block-7:hover {
+visibility: visible;
+}
+.block-7:hover::before {
+line-height: 50px;
+content: "YOU WIN!";
+}
