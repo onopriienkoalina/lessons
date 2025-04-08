@@ -1,10 +1,12 @@
 @import url("reset.css");
 @import url("fonts.css");
+body {
+font-size: 15px;
+}
 .wrapper {
 overflow: clip;
 min-height: 100%;
 font-family: 'Inter', sans-serif;
-font-size: 15px;
 color: #4F4F4F;
 }
 .page {
@@ -37,7 +39,7 @@ max-width: 387px;
 width: calc(33.33% - 20px); 
 display: inline-block;
 vertical-align: top;
-font-size: 22px;
+font-size: 15px;
 background-color: #FFFFFF;
 padding: 20px;
 }
@@ -47,7 +49,10 @@ background-color: #FFBE48;
 .card-item:not(:last-child) {
 margin-right: 20px;
 }
-.card-item > *:not(:last-child){
+.card-item-content {
+min-height: 436px;
+}
+.card-item-content > *:not(:last-child){
 margin-bottom: 16px;
 }
 .card-image {
@@ -90,16 +95,14 @@ font-weight: 700;
 font-size: 22px;
 line-height: 27px;
 }
-.about-list > *:not(:last-child) {
-margin-bottom: 21px;
-}
 .about-item {
 color: #4F4F4F;
-line-height: 2.1;
+line-height: 2.55;
 font-size: 20px;
 }
 .about-item::before {
-content: url("img/Frame.svg");
+content: "";
+background-image: url("../img/Frame.svg");
 vertical-align: middle;
 margin-right: 13px;
 width: 29px;
