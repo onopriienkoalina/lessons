@@ -29,6 +29,9 @@ img, p{
     height: 542px;
     color: #000;
 }
+.picture{
+    border-radius: 150px 0px;
+}
 .main-container {
     background-image: url("../img/main.avif");
     height: 860px;
