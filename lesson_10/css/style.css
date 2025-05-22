@@ -74,18 +74,18 @@ body {
     height: 40px;
     top: 11px;
     right: 11px;
-    background: url("/img/add-to-cart-white.svg") center/contain no-repeat;
+    background: url("../img/add-to-cart-white.svg") center/contain no-repeat;
 }
 
 .cabbage__cart:hover {
-    background: url("/img/add-to-cart.svg") center/contain no-repeat;
+    background: url("../img/add-to-cart.svg") center/contain no-repeat;
 }
 
 .overview {
     max-width: 1920px;
     background-color: #5A54F2;
     background:
-        url("/img/background.avif") no-repeat top center,
+        url("../img/background.avif") no-repeat top center,
         #5A54F2;
     background-size: cover;
     position: relative;
@@ -114,7 +114,7 @@ body {
     left: 0;
     width: 65px;
     height: 65px;
-    background: url("/img/overview-down-small-elipse.svg") no-repeat center/contain;
+    background: url("../img/overview-down-small-elipse.svg") no-repeat center/contain;
 
 }
 
@@ -125,7 +125,7 @@ body {
     left: 20px;
     width: 401px;
     height: 401px;
-    background: url("/img/overview-up-big-elipse.avif") no-repeat center/contain;
+    background: url("../img/overview-up-big-elipse.avif") no-repeat center/contain;
 
 }
 
@@ -136,7 +136,7 @@ body {
     left: 35px;
     width: 214px;
     height: 472px;
-    background: url("/img/green-elipsses-left.svg") no-repeat center/contain;
+    background: url("../img/green-elipsses-left.svg") no-repeat center/contain;
 }
 
 .overview__up-img {
@@ -233,7 +233,7 @@ body {
     right: 273px;
     width: 65px;
     height: 65px;
-    background: url("/img/overview-down-small-elipse.svg") no-repeat center/contain;
+    background: url("../img/overview-down-small-elipse.svg") no-repeat center/contain;
 }
 
 .overview__down-big-elipse {
@@ -243,7 +243,7 @@ body {
     right: -129px;
     width: 262px;
     height: 262px;
-    background: url("/img/overview-down-big-elipse.avif") no-repeat center/contain;
+    background: url("../img/overview-down-big-elipse.avif") no-repeat center/contain;
 }
 
 .overview__down-dots {
@@ -253,5 +253,5 @@ body {
     right: -176px;
     width: 472px;
     height: 214px;
-    background: url("/img/green-elipsses-right.svg") no-repeat center/contain;
+    background: url("../img/green-elipsses-right.svg") no-repeat center/contain;
 }
