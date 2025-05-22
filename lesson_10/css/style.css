@@ -1,0 +1,257 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+
+.cabbage {
+    font-family: 'Poppins', sans-serif;
+    width: 254px;
+    margin: 0 auto;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 84px;
+}
+
+.cabbage:hover {
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+
+.cabbage__images {
+    padding: 5px;
+    position: relative;
+
+}
+
+.cabbage__image {
+    width: 100%;
+    height: 100%;
+}
+
+.cabbage__link img {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.cabbage__like {
+    top: 11px;
+    right: 11px;
+}
+
+.cabbage__eye {
+    top: 57px;
+    right: 11px;
+}
+
+.cabbage__text {
+    line-height: 1.5;
+    padding: 12px;
+    position: relative;
+}
+
+.cabbage__title {
+    color: #2C742F;
+    font-size: 14px;
+}
+
+.cabbage__price {
+    font-weight: 500;
+}
+
+.cabbage__cart {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    top: 11px;
+    right: 11px;
+    background: url("/img/add-to-cart-white.svg") center/contain no-repeat;
+}
+
+.cabbage__cart:hover {
+    background: url("/img/add-to-cart.svg") center/contain no-repeat;
+}
+
+.overview {
+    max-width: 1920px;
+    background-color: #5A54F2;
+    background:
+        url("/img/background.avif") no-repeat top center,
+        #5A54F2;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.overview__wrapper {
+    position: relative;
+    max-width: 1481px;
+    margin: 0 auto;
+}
+
+.overview__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.overview__section-up {
+    margin-bottom: 55px;
+}
+
+.overview__up-small-elipse {
+    z-index: -1;
+    position: absolute;
+    top: 147px;
+    left: 0;
+    width: 65px;
+    height: 65px;
+    background: url("/img/overview-down-small-elipse.svg") no-repeat center/contain;
+
+}
+
+.overview__up-big-elipse {
+    z-index: -1;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    width: 401px;
+    height: 401px;
+    background: url("/img/overview-up-big-elipse.avif") no-repeat center/contain;
+
+}
+
+.overview__up-dots {
+    z-index: -1;
+    position: absolute;
+    top: 438px;
+    left: 35px;
+    width: 214px;
+    height: 472px;
+    background: url("/img/green-elipsses-left.svg") no-repeat center/contain;
+}
+
+.overview__up-img {
+    margin-top: -47px;
+}
+
+.overview__up-img img {
+    box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
+}
+
+.overview__img,
+.overview__text-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.overview__img {
+    width: 40%;
+    margin-right: 70px;
+}
+
+.overview__img:last-of-type {
+    margin-right: 0;
+    padding-left: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.overview__img:last-of-type img {
+    box-shadow: 22px 42px 44px 0px rgba(0, 0, 0, 0.30);
+}
+
+.overview__img img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.overview__text-container {
+    width: calc(60% - 75px);
+    color: #FFF;
+}
+
+.overview__title {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02em;
+    margin-bottom: 13px;
+}
+
+.overview__title:last-of-type {
+    max-width: 450px;
+}
+
+.overview__text-container-up {
+    margin-top: 97px;
+}
+
+.overview__text-container-down {
+    position: absolute;
+    top: 85px;
+    left: 250px;
+}
+
+.overview__text {
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 39px;
+}
+
+.overview__button {
+    display: inline-block;
+    background-color: #F35B09;
+    color: #FFF;
+    padding: 22px 26px;
+    border-radius: 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.overview__section-down {
+    position: relative;
+    min-height: 548px;
+}
+
+.overview__down-small-elipse {
+    z-index: 10;
+    position: absolute;
+    top: -50px;
+    right: 273px;
+    width: 65px;
+    height: 65px;
+    background: url("/img/overview-down-small-elipse.svg") no-repeat center/contain;
+}
+
+.overview__down-big-elipse {
+    z-index: -1;
+    position: absolute;
+    top: -28px;
+    right: -129px;
+    width: 262px;
+    height: 262px;
+    background: url("/img/overview-down-big-elipse.avif") no-repeat center/contain;
+}
+
+.overview__down-dots {
+    z-index: -1;
+    position: absolute;
+    bottom: 144px;
+    right: -176px;
+    width: 472px;
+    height: 214px;
+    background: url("/img/green-elipsses-right.svg") no-repeat center/contain;
+}
