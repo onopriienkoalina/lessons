@@ -121,8 +121,8 @@ body {
 .overview__up-big-elipse {
     z-index: -1;
     position: absolute;
-    top: 220px;
-    left: 20px;
+    top: 242px;
+    left: 14px;
     width: 401px;
     height: 401px;
     background: url("../img/overview-up-big-elipse.avif") no-repeat center/contain;
@@ -132,7 +132,7 @@ body {
 .overview__up-dots {
     z-index: -1;
     position: absolute;
-    top: 438px;
+    top: 463px;
     left: 35px;
     width: 214px;
     height: 472px;
